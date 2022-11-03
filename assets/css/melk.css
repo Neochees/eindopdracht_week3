@@ -1,0 +1,338 @@
+#container{
+    border: solid black;
+    height: 2200px;
+    width: 1000px;
+    margin-left: 250px;
+    padding: 10px;
+    padding-left: 0px;
+    font-family: sans-serif;
+}
+#header{
+    margin: -10px;
+    border: solid black;
+    width: 986px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 0px;
+    font-family: sans-serif;
+    display: flex;
+    align-content: space-between;
+}
+#taal{
+    margin: 10px;
+    width: 200px;
+    height: 22px;
+    margin-right: 475px;
+}
+#account{
+    margin: 8px;
+    width: 300px;
+    height: 22px;
+    display: flex;
+    align-content: space-between;
+}
+#mijnaccount{
+    border-right: solid black;
+    padding-right: 10px;
+    padding-top: 2px;
+    color:deepskyblue;
+    text-decoration-line: underline;
+}
+#mijnaccount:hover{
+    color: blueviolet;
+}
+#afrekenen{
+    border-right: solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    color: deepskyblue;
+    text-decoration-line: underline;
+}
+#afrekenen:hover{
+    color: blueviolet;
+}
+#inloggen{
+    padding-left: 5px;
+    padding-top: 1px;
+    color: deepskyblue;
+    text-decoration-line: underline;
+}
+#inloggen:hover{
+    color: blueviolet;
+}
+#content{
+    border: solid black;
+    margin-top: 10px;
+    width: 1006px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#logoennaam{
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    border: solid black;
+    border-radius: 20px;
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#logo img{
+    width: 65px;
+    height: 65px;
+}
+#logonaam{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 46px;
+}
+#logonaam a{
+    text-decoration: none;
+    color: black;
+}
+#nav{
+    font-family: sans-serif;
+    width: 300px;
+    height: 30px;
+    margin-top: 27px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+}
+#navhier{
+    border: 3px solid #c9c9c9;
+    border-top: 10px solid deepskyblue;
+    background-color: #eeeeee;
+    text-align: center;
+    width: 40px;
+    height: 22px;
+    margin-top: 5px;
+}
+#zoeken{
+    height: 50px;
+    width: 225px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#search{
+    width: 100px;
+    height: 25px;
+    margin-top: 35px;
+    background-color: deepskyblue;
+    text-align: center;
+    border-radius: 5px;
+    border: solid black 2px;
+    box-shadow: black 2px 2px;
+}
+#winkelwagen{
+    width: 100px;
+    height: 25px;
+    margin-top: 35px;
+    margin-left: 50px;
+    background-color: deepskyblue;
+    text-align: center;
+    border-radius: 5px;
+    border:  solid black 2px;
+    box-shadow: black 2px 2px;
+}
+#progress{
+    width: 350px;
+    height: 25px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+#phome{
+    color:deepskyblue;
+    text-decoration-line: underline;
+    height: 50px;
+    width: 50px;
+}
+#leftbar{
+    height: 1000px;
+    width: 200px;
+    padding: 50px;
+    float: left;
+    /*later verwijderen Thijmen*/
+}
+#kaascatogorie{
+    border: solid black;
+    border-top: solid deepskyblue 20px;
+    width: 200px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+#kaascatogorietitel{
+    border-bottom: black solid;
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+#subcatogorië{
+    width: 250px;
+    height: 100px;
+    margin-top: 0px;
+}
+#specifiek{
+    border: solid black;
+    border-top: solid deepskyblue 20px;
+    width: 200px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+#specifiektitel{
+    border-bottom: black solid;
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#prijs{
+    border: solid black;
+    border-top: solid deepskyblue 20px;
+    width: 200px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+#prijstitel{
+    border-bottom: black solid;
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+.pijlrechts li::before{
+    content: ">";
+}
+.pijlrechts li{
+    list-style-type: none;
+}
+#range{
+    text-align: center;
+    margin-top: 15px;
+}
+#minprijs{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    float: left;
+}
+#maxprijs{
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+    text-align: center;
+    float: right;
+}
+#products{
+    height: 1700px;
+    width: auto;
+    padding-top: 50px;
+    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#kaasjes{
+    clear: both;
+    width: 630px;
+    height: 100px;
+    margin-right: -50px;
+    margin-top: -50px;
+    padding-bottom: -50px;
+    position: absolute;
+    border-bottom: solid black;
+}
+#kaasjestitel{
+    height: 50px;
+    width: 100px;
+    padding-top: 40px;
+}
+.product{
+    border: solid black;
+    margin-top: 60px;
+    margin-right: 30px;
+    padding: 10px;
+    width: 165px;
+    height: 190px;
+}
+.product img{
+    border: solid black;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+}
+.producttext{
+    margin-left: 10px;
+    width: 75px;
+    height: 50px;
+    float:left
+}
+.prijs{
+    color: blue;
+}
+.shoppingcart img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    float: right;
+}
+#footer{
+    border: solid black;
+    width: 1010px;
+    height: 200px;
+    margin-left: 250px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+#veiligbetalen{
+    width: 200px;
+    height: 200px;
+}
+#veiligbetalentitel{
+    width: 50px;
+    height: 50px;
+}
+#veiligbetalentext{
+    width: 200px;
+    height: 50px;
+    margin-top: -5px;
+}
+#veiligbetalenknop{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#ideal{
+    width: 50px;
+    height: 50px;
+}
+#mastercard{
+    width: 50px;
+    height: 50px;
+}
+#paypal{
+    margin-top: -5px;
+    height: 30px;
+}
+#klantenservice{
+    width: 200px;
+    height: 200px;
+}
+#overons{
+    width: 200px;
+    height: 200px;
+}
