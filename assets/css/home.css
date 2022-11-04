@@ -1,6 +1,6 @@
 #container{
     border: solid black;
-    height: 2200px;
+    height: 370px;
     width: 1000px;
     margin-left: 250px;
     padding: 10px;
@@ -116,7 +116,7 @@
     border-top: 10px solid yellow;
     background-color: #eeeeee;
     text-align: center;
-    width: 40px;
+    width: 45px;
     height: 22px;
     margin-top: 5px;
 }
@@ -152,7 +152,6 @@
     width: 350px;
     height: 25px;
     margin-top: -20px;
-    margin-bottom: 30px;
 }
 #phome{
     color:deepskyblue;
@@ -161,25 +160,29 @@
     width: 50px;
 }
 #leftbar{
-    height: 1000px;
-    width: 200px;
+    height: 300px;
+    width: 900px;
     padding: 50px;
-    float: left;
-    /*later verwijderen Thijmen*/
+    display: flex;
+    justify-content: space-evenly;
 }
 #kaascatogorie{
     border: solid black;
     border-top: solid yellow 20px;
     width: 200px;
-    height: 175px;
+    height: 80px;
     margin-bottom: 20px;
 }
 #kaascatogorietitel{
-    border-bottom: black solid;
     width: 150px;
     height: 50px;
     margin-left: 25px;
     text-align: center;
+}
+#kaascatogorietitel a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 #subcatogorië{
     width: 250px;
@@ -190,30 +193,57 @@
     border: solid black;
     border-top: solid yellow 20px;
     width: 200px;
-    height: 175px;
+    height: 80px;
     margin-bottom: 20px;
 }
 #specifiektitel{
-    border-bottom: black solid;
     width: 150px;
     height: 50px;
     margin-left: 25px;
     padding-bottom: 10px;
     text-align: center;
 }
+#specifiektitel a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 #prijs{
     border: solid black;
-    border-top: solid yellow 20px;
+    border-top: solid deepskyblue 20px;
     width: 200px;
-    height: 175px;
+    height: 80px;
     margin-bottom: 20px;
 }
 #prijstitel{
-    border-bottom: black solid;
     width: 150px;
     height: 50px;
     margin-left: 25px;
     text-align: center;
+}
+#prijstitel a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#meerkaashome{
+    border: solid black;
+    border-top: solid yellow 20px;
+    width: 200px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+#meerkaashometitel{
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -10px;
+    text-align: center;
+}
+#meerkaashometitel a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 .pijlrechts li::before{
     content: ">";
@@ -293,6 +323,7 @@
 }
 #footer{
     border: solid black;
+    border-top: none;
     width: 1010px;
     height: 200px;
     margin-left: 250px;
