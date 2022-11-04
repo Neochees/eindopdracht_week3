@@ -137,6 +137,10 @@
     border: solid black 2px;
     box-shadow: black 2px 2px;
 }
+#search a{
+    color: black;
+    text-decoration: none;
+}
 #winkelwagen{
     width: 100px;
     height: 25px;
